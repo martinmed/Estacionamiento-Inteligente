@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PCLTest" x:Class="PCLTest.PCLTestPage">
+	<StackLayout>
+		<Label Text="Welcome to Xamarin Forms PCL!" VerticalOptions="Center" HorizontalOptions="Center" />
+		<Button Clicked="Handle_Clicked" Text="Launch Map ContentPage"></Button>
+		<Button Clicked="Handle_Clicked2" Text="Launch Map ContentView"></Button>
+	</StackLayout>
+</ContentPage>

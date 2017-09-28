@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:esriUI="clr-namespace:Esri.ArcGISRuntime.Xamarin.Forms;assembly=Esri.ArcGISRuntime.Xamarin.Forms"
+	xmlns:mapping="clr-namespace:Esri.ArcGISRuntime.Mapping;assembly=Esri.ArcGISRuntime" 
+	x:Class="PCLTest.Shared.MapContentView">
+	<Grid VerticalOptions="Fill" HorizontalOptions="Fill">
+		<esriUI:MapView x:Name="MyMapView" VerticalOptions="Fill" HorizontalOptions="Fill"/>
+	</Grid>
+</ContentView>
